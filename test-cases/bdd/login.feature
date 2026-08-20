@@ -1,9 +1,9 @@
 Feature: Login
 
-  Scenario: Login com credenciais validas
-    Given que o usuario esta na tela de Login
+  Scenario: Login com credenciais válidas
+    Given que o usuário está na tela de Login
     When informa o username "standard_user"
     And informa o password "secret_sauce"
-    And clica no botao Login
+    And clica no botão Login
     Then deve ser direcionado para a tela Products
     And deve visualizar a lista de produtos

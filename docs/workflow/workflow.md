@@ -8,9 +8,9 @@ Definir o fluxo de trabalho usado para organizar as atividades do projeto de QA 
 
 ClickUp
 
-## Organizacao no ClickUp
+## Organização no ClickUp
 
-O projeto foi organizado no Space `Amanda Souza - QA Space`, com listas separadas para evitar mistura entre planejamento, casos de teste, execucao e bugs.
+O projeto foi organizado no Space `Amanda Souza - QA Space`, com listas separadas para evitar mistura entre planejamento, casos de teste, execução e bugs.
 
 Lista criada para esta etapa:
 
@@ -28,17 +28,17 @@ Status auxiliar:
 Blocked
 ```
 
-## Descricao dos Status
+## Descrição dos Status
 
-| Status | Descricao |
+| Status | Descrição |
 | --- | --- |
-| Backlog | Itens levantados, mas ainda nao priorizados. |
+| Backlog | Itens levantados, mas ainda não priorizados. |
 | To Do | Itens priorizados e prontos para iniciar. |
 | In Progress | Item em andamento. |
-| Ready for QA | Item pronto para validacao de QA. |
+| Ready for QA | Item pronto para validação de QA. |
 | Testing | Item em teste pelo QA. |
-| Done | Item validado e concluido. |
-| Blocked | Item impedido por dependencia, duvida ou problema externo. |
+| Done | Item validado e concluído. |
+| Blocked | Item impedido por dependência, dúvida ou problema externo. |
 
 ## Ciclo de Bug
 
@@ -52,29 +52,29 @@ Status alternativo:
 Reopened
 ```
 
-| Status | Descricao |
+| Status | Descrição |
 | --- | --- |
-| New | Bug reportado e aguardando analise. |
-| In Progress | Bug em correcao ou investigacao. |
-| Ready for Retest | Correcao pronta para novo teste. |
-| Retest | QA reexecutando o teste para validar a correcao. |
+| New | Bug reportado e aguardando análise. |
+| In Progress | Bug em correção ou investigação. |
+| Ready for Retest | Correção pronta para novo teste. |
+| Retest | QA reexecutando o teste para validar a correção. |
 | Closed | Bug corrigido e validado. |
 | Reopened | Bug voltou porque ainda ocorre ou regressou. |
 
-## Status de Execucao de Testes
+## Status de Execução de Testes
 
 ```text
 Not Executed -> Passed / Failed / Blocked
 ```
 
-| Status | Descricao |
+| Status | Descrição |
 | --- | --- |
-| Not Executed | Teste ainda nao executado. |
-| Passed | Resultado obtido esta conforme o esperado. |
-| Failed | Resultado obtido esta diferente do esperado. |
-| Blocked | Teste nao pode ser executado por impedimento. |
+| Not Executed | Teste ainda não executado. |
+| Passed | Resultado obtido está conforme o esperado. |
+| Failed | Resultado obtido está diferente do esperado. |
+| Blocked | Teste não pode ser executado por impedimento. |
 
-## Observacao
+## Observação
 
 No ClickUp, a lista atual `Testes` possui os statuses `to do`, `in progress` e `complete`.
-Para este projeto de portfolio, os fluxos acima servem como referencia de organizacao e podem ser representados por tarefas, subtarefas ou campos personalizados.
+Para este projeto de portfólio, os fluxos acima servem como referência de organização e podem ser representados por tarefas, subtarefas ou campos personalizados.

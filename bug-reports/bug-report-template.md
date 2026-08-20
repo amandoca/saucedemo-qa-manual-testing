@@ -1,16 +1,16 @@
 # Bug Report Template
 
-## Titulo
+## Título
 
 A preencher.
 
 ## Ambiente
 
 ```text
-Aplicacao: https://www.saucedemo.com/
+Aplicação: https://www.saucedemo.com/
 Navegador:
 Sistema operacional:
-Usuario:
+Usuário:
 Data:
 ```
 
@@ -22,13 +22,13 @@ A preencher.
 
 A preencher.
 
-## Pre-condicao
+## Pré-condição
 
 A preencher.
 
 ## Passos
 
-| Passo | Acao |
+| Passo | Ação |
 | --- | --- |
 | 1 | A preencher |
 | 2 | A preencher |
@@ -42,7 +42,7 @@ A preencher.
 
 A preencher.
 
-## Evidencia
+## Evidência
 
 A preencher.
 

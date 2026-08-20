@@ -2,34 +2,34 @@
 
 ## Severidade
 
-Severidade indica o impacto tecnico ou funcional do bug no sistema.
+Severidade indica o impacto técnico ou funcional do bug no sistema.
 
 Exemplos:
 
 - Alta: impede login, compra ou uso de funcionalidade principal.
-- Media: afeta funcionalidade importante, mas existe contorno.
-- Baixa: problema visual ou de texto que nao impede o uso.
+- Média: afeta funcionalidade importante, mas existe contorno.
+- Baixa: problema visual ou de texto que não impede o uso.
 
 ## Prioridade
 
-Prioridade indica a urgencia para corrigir o bug.
+Prioridade indica a urgência para corrigir o bug.
 
 Exemplos:
 
 - Alta: precisa ser corrigido rapidamente.
-- Media: deve ser corrigido em ciclo proximo.
+- Média: deve ser corrigido em ciclo próximo.
 - Baixa: pode aguardar.
 
-## Exemplo pratico
+## Exemplo prático
 
 ```text
-Bug: Botao de compra nao funciona.
+Bug: Botão de compra não funciona.
 Severidade: Alta, porque bloqueia o fluxo principal.
-Prioridade: Alta, porque afeta diretamente a conclusao da compra.
+Prioridade: Alta, porque afeta diretamente a conclusão da compra.
 ```
 
 ```text
-Bug: Texto com erro ortografico no rodape.
-Severidade: Baixa, porque nao bloqueia o uso.
+Bug: Texto com erro ortográfico no rodapé.
+Severidade: Baixa, porque não bloqueia o uso.
 Prioridade: Baixa, porque pode ser corrigido depois.
 ```

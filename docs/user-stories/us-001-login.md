@@ -1,37 +1,37 @@
-# US-001 - Login com usuario valido
+# US-001 - Login com usuário válido
 
 ## User Story
 
-Como usuario do SauceDemo,
-quero acessar o sistema com credenciais validas,
-para visualizar os produtos disponiveis para compra.
+Como usuário do SauceDemo,
+quero acessar o sistema com credenciais válidas,
+para visualizar os produtos disponíveis para compra.
 
 ## Objetivo
 
-Validar que um usuario autorizado consegue entrar na aplicacao e acessar a tela de produtos.
+Validar que um usuário autorizado consegue entrar na aplicação e acessar a tela de produtos.
 
 ## Narrativa
 
-O usuario informa username e password validos na tela de login. Ao clicar em Login, o sistema deve autenticar o acesso e direcionar para a pagina Products.
+O usuário informa username e password válidos na tela de login. Ao clicar em Login, o sistema deve autenticar o acesso e direcionar para a página Products.
 
 ## Regras
 
-- Username e password sao obrigatorios.
-- O login com credenciais validas deve permitir acesso ao sistema.
-- Apos login bem-sucedido, a tela Products deve ser exibida.
+- Username e password são obrigatórios.
+- O login com credenciais válidas deve permitir acesso ao sistema.
+- Após login bem-sucedido, a tela Products deve ser exibida.
 
-## Pre-condicoes
+## Pré-condições
 
-- Aplicacao SauceDemo acessivel.
-- Usuario esta na tela de Login.
-- Credenciais validas disponiveis.
+- Aplicação SauceDemo acessível.
+- Usuário está na tela de Login.
+- Credenciais válidas disponíveis.
 
-## Criterios de Aceite
+## Critérios de Aceite
 
 ```gherkin
-Given que o usuario esta na tela de Login
-When ele informa username e password validos
-And clica no botao Login
+Given que o usuário está na tela de Login
+When ele informa username e password válidos
+And clica no botão Login
 Then o sistema deve direcionar para a tela Products
 And a lista de produtos deve ser exibida
 ```

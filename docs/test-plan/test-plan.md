@@ -2,16 +2,16 @@
 
 ## Objetivo
 
-Definir a estrategia de testes manuais funcionais para validar os principais fluxos da aplicacao SauceDemo.
+Definir a estratégia de testes manuais funcionais para validar os principais fluxos da aplicação SauceDemo.
 
 ## Escopo
 
-Serao testadas as seguintes funcionalidades:
+Serão testadas as seguintes funcionalidades:
 
 - Login
 - Listagem de produtos
 - Detalhe do produto
-- Ordenacao de produtos
+- Ordenação de produtos
 - Carrinho
 - Checkout
 - Logout
@@ -20,50 +20,50 @@ Serao testadas as seguintes funcionalidades:
 
 - Testes automatizados
 - Testes de performance
-- Testes de seguranca aprofundados
+- Testes de segurança aprofundados
 - Testes de API
-- Validacao de banco de dados
+- Validação de banco de dados
 - Compatibilidade ampla entre navegadores e dispositivos
 
 ## Ambiente
 
 ```text
-Aplicacao: https://www.saucedemo.com/
+Aplicação: https://www.saucedemo.com/
 Tipo de teste: Manual
 Navegador: Google Chrome
 Sistema operacional: Linux
-Usuario principal: standard_user
+Usuário principal: standard_user
 Senha: secret_sauce
 ```
 
-## Tipos e Niveis de Teste
+## Tipos e Níveis de Teste
 
 - Teste funcional
 - Teste caixa-preta
 - Teste de sistema
 - Teste de aceite
-- Teste exploratorio
+- Teste exploratório
 
 ## Abordagem
 
-Os testes serao criados a partir das User Stories, criterios de aceite e exploracao inicial da aplicacao.
+Os testes serão criados a partir das User Stories, critérios de aceite e exploração inicial da aplicação.
 
-Serao considerados:
+Serão considerados:
 
 - Fluxos positivos
 - Fluxos negativos
-- Validacoes obrigatorias
+- Validações obrigatórias
 - Estados da interface
-- Persistencia de informacoes entre telas
+- Persistência de informações entre telas
 - Comportamento esperado x comportamento obtido
 
 ## Dados de Teste
 
 ```text
-Usuario valido: standard_user
-Senha valida: secret_sauce
+Usuário válido: standard_user
+Senha válida: secret_sauce
 Produto base: Sauce Labs Backpack
-Preco esperado do produto base: $29.99
+Preço esperado do produto base: $29.99
 Nome: Amanda
 Sobrenome: QA
 CEP: 12345
@@ -71,37 +71,37 @@ CEP: 12345
 
 ## Riscos
 
-- Carrinho nao atualizar corretamente.
+- Carrinho não atualizar corretamente.
 - Produto incorreto aparecer no checkout.
-- Ordenacao exibir lista fora da ordem esperada.
+- Ordenação exibir lista fora da ordem esperada.
 - Login permitir ou bloquear acesso incorretamente.
 - Checkout finalizar pedido com dados incompletos.
-- Estado da sessao interferir nos testes.
+- Estado da sessão interferir nos testes.
 
-## Criterios de Entrada
+## Critérios de Entrada
 
-- Aplicacao acessivel.
-- Navegador disponivel.
+- Aplicação acessível.
+- Navegador disponível.
 - Credenciais de teste conhecidas.
 - User Stories criadas.
-- Criterios de aceite definidos.
+- Critérios de aceite definidos.
 - Casos de teste preparados.
 
-## Criterios de Saida
+## Critérios de Saída
 
 - Casos de teste executados.
 - Resultados registrados como Passed, Failed ou Blocked.
-- Evidencias salvas quando necessario.
+- Evidências salvas quando necessário.
 - Bugs encontrados documentados.
 - Fluxos principais validados.
 
-## Entregaveis
+## Entregáveis
 
 - User Stories
-- Criterios de aceite
+- Critérios de aceite
 - Mind map
 - Plano de testes
 - Casos de teste step-by-step
 - Casos de teste BDD
-- Evidencias de execucao
-- Relatorios de bugs
+- Evidências de execução
+- Relatórios de bugs
