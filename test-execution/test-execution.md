@@ -19,6 +19,7 @@ Blocked - Teste impedido de execução
 | TC-004 | Checkout sem preencher First Name | 2026-08-20 | Sistema impediu o avanço para o resumo do checkout e exibiu a mensagem: "Error: First Name is required". | Passed | N/A |
 | TC-005 | Checkout sem preencher Last Name | 2026-08-20 | Sistema impediu o avanço para o resumo do checkout e exibiu a mensagem: "Error: Last Name is required". | Passed | N/A |
 | TC-006 | Checkout sem preencher Zip/Postal Code | 2026-08-20 | Sistema impediu o avanço para o resumo do checkout e exibiu a mensagem: "Error: Postal Code is required". | Passed | N/A |
+| TC-007 | Remover produto do carrinho | 2026-08-20 | Produto foi removido da tela Your Cart e o contador do carrinho foi removido. | Passed | N/A |
 
 ## Observações
 
