@@ -16,3 +16,12 @@ Feature: Carrinho
     And clica no botão Remove
     Then o produto "Sauce Labs Backpack" não deve ser exibido no carrinho
     And o contador do carrinho deve ser removido
+
+  Scenario: Voltar às compras pelo carrinho
+    Given que o usuário está logado
+    And possui o produto "Sauce Labs Backpack" no carrinho
+    When acessa a tela Your Cart
+    And clica em Continue Shopping
+    Then deve ser direcionado para a tela Products
+    And o contador do carrinho deve exibir 1
+    And o produto "Sauce Labs Backpack" deve permanecer com o botão Remove

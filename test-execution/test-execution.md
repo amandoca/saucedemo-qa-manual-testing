@@ -27,6 +27,7 @@ Blocked - Teste impedido de execução
 | TC-012 | Voltar do detalhe para Products | 2026-08-20 | Sistema retornou para a tela Products e a lista de produtos ficou visível. | Passed | N/A |
 | TC-013 | Realizar logout pelo menu lateral | 2026-08-20 | Sistema retornou para a tela de Login, exibindo os campos Username e Password e o botão Login. | Passed | N/A |
 | TC-014 | Finalizar compra com sucesso | 2026-08-20 | Sistema finalizou a compra, exibiu a mensagem "Thank you for your order!", mostrou o botão Back Home e deixou o carrinho sem contador. | Passed | N/A |
+| TC-015 | Voltar às compras pelo carrinho | 2026-08-20 | Sistema retornou para a tela Products, manteve o contador do carrinho em 1 e manteve o produto adicionado com o botão Remove. | Passed | N/A |
 
 ## Observações
 
