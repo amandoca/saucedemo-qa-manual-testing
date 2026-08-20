@@ -23,6 +23,7 @@ Blocked - Teste impedido de execução
 | TC-008 | Ordenar produtos por nome de Z a A | 2026-08-20 | Lista foi ordenada por nome de Z a A. O primeiro produto exibido foi Test.allTheThings() T-Shirt (Red) e o último produto exibido foi Sauce Labs Backpack. | Passed | N/A |
 | TC-009 | Ordenar produtos por preço do menor para o maior | 2026-08-20 | Lista foi ordenada por preço do menor para o maior. O primeiro produto exibido foi Sauce Labs Onesie com preço $7.99 e o último produto exibido foi Sauce Labs Fleece Jacket com preço $49.99. | Passed | N/A |
 | TC-010 | Ordenar produtos por preço do maior para o menor | 2026-08-20 | Lista foi ordenada por preço do maior para o menor. O primeiro produto exibido foi Sauce Labs Fleece Jacket com preço $49.99 e o último produto exibido foi Sauce Labs Onesie com preço $7.99. | Passed | N/A |
+| TC-011 | Acessar detalhe do produto | 2026-08-20 | Sistema exibiu a tela de detalhe do produto Sauce Labs Backpack, com preço $29.99, botão Add to cart e link Back to products. | Passed | N/A |
 
 ## Observações
 

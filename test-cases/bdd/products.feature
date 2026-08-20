@@ -1,5 +1,14 @@
 Feature: Produtos
 
+  Scenario: Acessar detalhe do produto
+    Given que o usuário está logado na tela Products
+    When clica no produto "Sauce Labs Backpack"
+    Then deve visualizar a tela de detalhe do produto
+    And o nome do produto deve ser "Sauce Labs Backpack"
+    And o preço do produto deve ser "$29.99"
+    And o botão Add to cart deve estar visível
+    And o link Back to products deve estar visível
+
   Scenario: Ordenar produtos por nome de Z a A
     Given que o usuário está logado na tela Products
     When seleciona a ordenação "Name (Z to A)"
