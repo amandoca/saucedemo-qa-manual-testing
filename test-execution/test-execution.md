@@ -21,6 +21,7 @@ Blocked - Teste impedido de execução
 | TC-006 | Checkout sem preencher Zip/Postal Code | 2026-08-20 | Sistema impediu o avanço para o resumo do checkout e exibiu a mensagem: "Error: Postal Code is required". | Passed | N/A |
 | TC-007 | Remover produto do carrinho | 2026-08-20 | Produto foi removido da tela Your Cart e o contador do carrinho foi removido. | Passed | N/A |
 | TC-008 | Ordenar produtos por nome de Z a A | 2026-08-20 | Lista foi ordenada por nome de Z a A. O primeiro produto exibido foi Test.allTheThings() T-Shirt (Red) e o último produto exibido foi Sauce Labs Backpack. | Passed | N/A |
+| TC-009 | Ordenar produtos por preço do menor para o maior | 2026-08-20 | Lista foi ordenada por preço do menor para o maior. O primeiro produto exibido foi Sauce Labs Onesie com preço $7.99 e o último produto exibido foi Sauce Labs Fleece Jacket com preço $49.99. | Passed | N/A |
 
 ## Observações
 
