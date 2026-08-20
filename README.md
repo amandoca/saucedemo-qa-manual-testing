@@ -56,6 +56,7 @@ O projeto demonstra:
 | TC-005 | Checkout sem preencher Last Name | Passed |
 | TC-006 | Checkout sem preencher Zip/Postal Code | Passed |
 | TC-007 | Remover produto do carrinho | Passed |
+| TC-008 | Ordenar produtos por nome de Z a A | Passed |
 
 ## Ferramentas
 
