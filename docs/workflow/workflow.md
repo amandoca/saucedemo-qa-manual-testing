@@ -40,6 +40,41 @@ Blocked
 | Done | Item validado e concluido. |
 | Blocked | Item impedido por dependencia, duvida ou problema externo. |
 
+## Ciclo de Bug
+
+```text
+New -> In Progress -> Ready for Retest -> Retest -> Closed
+```
+
+Status alternativo:
+
+```text
+Reopened
+```
+
+| Status | Descricao |
+| --- | --- |
+| New | Bug reportado e aguardando analise. |
+| In Progress | Bug em correcao ou investigacao. |
+| Ready for Retest | Correcao pronta para novo teste. |
+| Retest | QA reexecutando o teste para validar a correcao. |
+| Closed | Bug corrigido e validado. |
+| Reopened | Bug voltou porque ainda ocorre ou regressou. |
+
+## Status de Execucao de Testes
+
+```text
+Not Executed -> Passed / Failed / Blocked
+```
+
+| Status | Descricao |
+| --- | --- |
+| Not Executed | Teste ainda nao executado. |
+| Passed | Resultado obtido esta conforme o esperado. |
+| Failed | Resultado obtido esta diferente do esperado. |
+| Blocked | Teste nao pode ser executado por impedimento. |
+
 ## Observacao
 
-Como nao foi possivel configurar status personalizados diretamente no ClickUp, o fluxo foi representado por tarefas dentro da lista `Projeto / Workflow`.
+No ClickUp, a lista atual `Testes` possui os statuses `to do`, `in progress` e `complete`.
+Para este projeto de portfolio, os fluxos acima servem como referencia de organizacao e podem ser representados por tarefas, subtarefas ou campos personalizados.
