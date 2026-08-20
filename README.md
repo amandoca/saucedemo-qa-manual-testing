@@ -59,6 +59,7 @@ O projeto demonstra:
 | TC-008 | Ordenar produtos por nome de Z a A | Passed |
 | TC-009 | Ordenar produtos por preço do menor para o maior | Passed |
 | TC-010 | Ordenar produtos por preço do maior para o menor | Passed |
+| TC-011 | Acessar detalhe do produto | Passed |
 
 ## Ferramentas
 
