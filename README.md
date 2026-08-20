@@ -53,6 +53,8 @@ O projeto demonstra:
 | TC-002 | Adicionar produto ao carrinho | Passed |
 | TC-003 | Login com usuário bloqueado | Passed |
 | TC-004 | Checkout sem preencher First Name | Passed |
+| TC-005 | Checkout sem preencher Last Name | Passed |
+| TC-006 | Checkout sem preencher Zip/Postal Code | Passed |
 
 ## Ferramentas
 
