@@ -51,6 +51,7 @@ O projeto demonstra:
 | --- | --- | --- |
 | TC-001 | Login com credenciais válidas | Passed |
 | TC-002 | Adicionar produto ao carrinho | Passed |
+| TC-003 | Login com usuário bloqueado | Passed |
 
 ## Ferramentas
 
