@@ -1,5 +1,18 @@
 Feature: Checkout
 
+  Scenario: Finalizar compra com sucesso
+    Given que o usuário está logado
+    And possui o produto "Sauce Labs Backpack" no carrinho
+    When acessa o checkout
+    And preenche o campo First Name com "Amanda"
+    And preenche o campo Last Name com "QA"
+    And preenche o campo Zip/Postal Code com "12345"
+    And continua para o resumo da compra
+    And finaliza a compra
+    Then deve visualizar a mensagem "Thank you for your order!"
+    And o botão Back Home deve estar visível
+    And o carrinho deve ficar sem contador
+
   Scenario: Checkout sem preencher First Name
     Given que o usuário está logado
     And possui o produto "Sauce Labs Backpack" no carrinho
