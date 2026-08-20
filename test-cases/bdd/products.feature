@@ -9,6 +9,12 @@ Feature: Produtos
     And o botão Add to cart deve estar visível
     And o link Back to products deve estar visível
 
+  Scenario: Voltar do detalhe para Products
+    Given que o usuário está na tela de detalhe do produto "Sauce Labs Backpack"
+    When clica no link Back to products
+    Then deve ser direcionado para a tela Products
+    And a lista de produtos deve estar visível
+
   Scenario: Ordenar produtos por nome de Z a A
     Given que o usuário está logado na tela Products
     When seleciona a ordenação "Name (Z to A)"
