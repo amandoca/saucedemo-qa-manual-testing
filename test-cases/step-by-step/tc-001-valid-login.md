@@ -34,8 +34,8 @@ Sistema deve direcionar o usuario para a tela Products e exibir a lista de produ
 
 ## Resultado obtido
 
-A preencher durante a execucao.
+Usuario foi direcionado para a tela Products e a lista de produtos foi exibida.
 
 ## Status
 
-Not Executed
+Passed

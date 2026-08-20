@@ -13,8 +13,8 @@ Blocked - Teste impedido de execucao
 
 | ID | Caso de teste | Data | Resultado obtido | Status | Evidencia |
 | --- | --- | --- | --- | --- | --- |
-| TC-001 | Login com credenciais validas | A preencher | A preencher | Not Executed | A preencher |
-| TC-002 | Adicionar produto ao carrinho | A preencher | A preencher | Not Executed | A preencher |
+| TC-001 | Login com credenciais validas | 2026-08-20 | Usuario foi direcionado para a tela Products e a lista de produtos foi exibida. | Passed | N/A |
+| TC-002 | Adicionar produto ao carrinho | 2026-08-20 | Produto foi adicionado, botao mudou para Remove, contador exibiu 1 e item apareceu em Your Cart. | Passed | N/A |
 
 ## Observacoes
 

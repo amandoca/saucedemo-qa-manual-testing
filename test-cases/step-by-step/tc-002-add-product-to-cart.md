@@ -34,8 +34,8 @@ Botao do produto deve mudar para Remove, contador do carrinho deve exibir 1 e o 
 
 ## Resultado obtido
 
-A preencher durante a execucao.
+Produto foi adicionado, botao mudou para Remove, contador exibiu 1 e item apareceu em Your Cart.
 
 ## Status
 
-Not Executed
+Passed
