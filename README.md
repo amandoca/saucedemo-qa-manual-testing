@@ -62,6 +62,7 @@ O projeto demonstra:
 | TC-011 | Acessar detalhe do produto | Passed |
 | TC-012 | Voltar do detalhe para Products | Passed |
 | TC-013 | Realizar logout pelo menu lateral | Passed |
+| TC-014 | Finalizar compra com sucesso | Passed |
 
 ## Ferramentas
 
