@@ -13,3 +13,11 @@ Feature: Produtos
     And o preço do primeiro produto deve ser "$7.99"
     And o último produto deve ser "Sauce Labs Fleece Jacket"
     And o preço do último produto deve ser "$49.99"
+
+  Scenario: Ordenar produtos por preço do maior para o menor
+    Given que o usuário está logado na tela Products
+    When seleciona a ordenação "Price (high to low)"
+    Then o primeiro produto deve ser "Sauce Labs Fleece Jacket"
+    And o preço do primeiro produto deve ser "$49.99"
+    And o último produto deve ser "Sauce Labs Onesie"
+    And o preço do último produto deve ser "$7.99"
