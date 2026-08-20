@@ -15,6 +15,7 @@ Blocked - Teste impedido de execução
 | --- | --- | --- | --- | --- | --- |
 | TC-001 | Login com credenciais válidas | 2026-08-20 | Usuário foi direcionado para a tela Products e a lista de produtos foi exibida. | Passed | N/A |
 | TC-002 | Adicionar produto ao carrinho | 2026-08-20 | Produto foi adicionado, botão mudou para Remove, contador exibiu 1 e item apareceu em Your Cart. | Passed | N/A |
+| TC-003 | Login com usuário bloqueado | 2026-08-20 | Sistema bloqueou o acesso e exibiu a mensagem: "Epic sadface: Sorry, this user has been locked out." | Passed | N/A |
 
 ## Observações
 
